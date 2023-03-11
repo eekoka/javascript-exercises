@@ -5,6 +5,8 @@ const reverseString = function(text) {
     result += text.substr(-i, 1);
   }
   return result;
+
+  //return text.split("").reverse().join("");
 };
 
 // Do not edit below this line
