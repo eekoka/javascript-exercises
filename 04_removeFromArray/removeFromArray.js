@@ -1,7 +1,7 @@
-const removeFromArray = function(...allArgs) {
-   let baseArray = allArgs[0];
+const removeFromArray = function(a, ...allArgs) {
+   let baseArray = a;
    let removeValues = allArgs;
-   removeValues.shift();
+   //removeValues.shift();
 
    for (const value of removeValues) {
      if (baseArray.indexOf(value) >= 0) {
